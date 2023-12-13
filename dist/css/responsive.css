@@ -1,0 +1,313 @@
+:root {
+  --bg-color: #242424;
+  --bg-color-2: #272727;
+  --primary: #0398fc;
+  --text-color: #ffff;
+}
+
+/* get bootstrap */
+/* `xxl` untuk perangkat x-besar (desktop besar, < 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* `xl` untuk perangkat besar (desktop, < 1200px) */
+@media (max-width: 1199.98px) {
+  .nav-link {
+    margin-right: 5px;
+  }
+
+  .navbar {
+    column-gap: 20px;
+  }
+
+  .hero {
+    padding-top: 15%;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .hero .btn-hire,
+  .btn-cv {
+    padding: 13px 15px;
+  }
+
+  /* about start */
+  .about h2 {
+    padding-top: 10%;
+  }
+
+  .about-detil p {
+    font-size: 13px;
+  }
+
+  .image-about {
+    width: 90%;
+  }
+  /* about end */
+
+  /* skills start */
+  .skills h2 {
+    padding-top: 10%;
+  }
+
+  .skills .box-skill {
+    .col-xl-3 {
+      width: 30%;
+    }
+  }
+  /* skills end */
+
+  .portofolio h2 {
+    padding-top: 10%;
+  }
+
+  .certificate h2 {
+    padding-top: 10%;
+  }
+
+  .contact h2 {
+    padding-top: 10%;
+  }
+}
+
+/* `lg` untuk perangkat menengah (tablet, < 992px) */
+@media (max-width: 991.98px) {
+  .navbar .menu {
+    width: 100%;
+    background-color: var(--bg-color);
+
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+
+  .navbar .menu .navbar-nav {
+    padding-left: 40px;
+  }
+
+  /* Hero */
+  .hero {
+    padding-top: 18%;
+  }
+
+  .hero .profile h1 {
+    font-size: 50px;
+  }
+
+  .hero h3 {
+    font-size: 15px;
+  }
+
+  .hero p {
+    font-size: 12px;
+  }
+
+  .hero .image-profile img {
+    width: 100%;
+  }
+
+  .hero .btn-hire,
+  .btn-cv {
+    padding: 10px 15px;
+  }
+
+  .hero .btn-cv {
+    margin-top: 10px;
+  }
+
+  /* about start */
+  .image-about {
+    width: 100%;
+  }
+
+  .about-detil p {
+    font-size: 10px;
+  }
+  /* about end */
+
+  /* skill start */
+  .skills .box-skill {
+    .col-xl-3 {
+      width: 30%;
+    }
+  }
+
+  .skills .box-skill .card-body {
+    text-align: center;
+  }
+
+  .skills .box-skill .card-body img {
+    width: 50px;
+    padding-top: 10px;
+    margin-left: 50px;
+  }
+
+  .skills .badge {
+    font-size: 10px;
+  }
+
+  .skills .h5 {
+    font-size: 15px;
+  }
+  /* skill end */
+
+  /* contact start */
+  .contact .contact-title {
+    font-size: 13px;
+  }
+
+  .contact .medsos .contact-item .text-contact p {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+
+  /* contact end */
+}
+
+/* `md` untuk perangkat kecil (landscape phones, < 768px) */
+@media (max-width: 767.98px) {
+  .hero {
+    padding-top: 25%;
+  }
+
+  .hero .row {
+    flex-direction: column;
+  }
+
+  .hero .profile h1 {
+    font-size: 40px;
+  }
+
+  .hero h3 {
+    font-size: 25px;
+  }
+
+  .hero p {
+    font-size: 12px;
+  }
+
+  .hero .image-profile img {
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .hero .btn-hire,
+  .btn-cv {
+    font-size: 15px;
+  }
+
+  .hero .btn-cv {
+    margin-top: 0;
+  }
+
+  /* about start */
+  hr {
+    width: 60%;
+    height: 5px;
+    color: var(--primary);
+    margin: 0 auto;
+    opacity: 100%;
+  }
+
+  .about .about-judul h2 {
+    padding-top: 20%;
+  }
+
+  .about .row {
+    text-align: center;
+  }
+
+  .about img {
+    width: 80%;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .about .about-detil {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .about .about-detil p {
+    font-size: 12px;
+  }
+  /* about end */
+
+  /* skills start */
+  .skills .skill-judul h2 {
+    padding-top: 20%;
+  }
+
+  .skills .box-skill {
+    .col-xl-3 {
+      width: 100%;
+    }
+  }
+
+  .skills .box-skill .card-body {
+    text-align: left;
+  }
+
+  .skills .box-skill .card-body img {
+    width: 65px;
+    padding-top: 0;
+  }
+
+  .skills .badge {
+    font-size: 15px;
+  }
+
+  .skills .h5 {
+    font-size: 25px;
+  }
+
+  .skills .box-skill {
+    .col-xl-3 {
+      margin-top: -20px;
+    }
+  }
+  /* skills end */
+
+  /* portofolio start */
+  .portofolio .portofolio-judul h2 {
+    padding-top: 20%;
+  }
+
+  .portofolio .box-portofolio .card {
+    margin-top: 50px;
+  }
+
+  .portofolio .text-judul {
+    padding-bottom: 55px;
+  }
+  /* portofolio end */
+
+  /* certificate start */
+  .certificate .certificate-judul h2 {
+    padding-top: 20%;
+  }
+
+  .certificate .carousel-item .col-md-4 {
+    margin-bottom: 20px;
+  }
+  /* certificate end */
+
+  .contact .contact-judul h2 {
+    padding-top: 20%;
+  }
+
+  /* footer start */
+  .footer p {
+    font-size: 13px;
+  }
+  /* footer end */
+}
